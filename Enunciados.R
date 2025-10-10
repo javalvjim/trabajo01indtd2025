@@ -14,5 +14,5 @@ M = matrix(c(1500, 1500, 1500, 1500, 2000, 1000,
 colnames(M)=c('e1','e2','e3','e4','e5','e6')
 rownames(M)=c('d1','d2','d3','d4','d5')
 
-## Apartado 1) Considerar situación favorable
-## Apartado 2) Considerar situación desfavorable
+    ## Apartado 1) Considerar situación favorable
+    ## Apartado 2) Considerar situación desfavorable
