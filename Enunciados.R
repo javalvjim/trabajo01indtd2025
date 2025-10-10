@@ -16,3 +16,29 @@ rownames(M)=c('d1','d2','d3','d4','d5')
 
     ## Apartado 1) Considerar situación favorable
     ## Apartado 2) Considerar situación desfavorable
+
+
+#################################################################################
+#################################################################################
+
+
+# Problema 2. Una oficina necesita contratar un plan de Internet confiable para sus operaciones 
+# diarias. Han recibido información de tres proveedores:
+
+    ## Proveedor A1 — Básico: cuota mensual 30€. La velocidad es limitada y puede tener interrupciones 
+    ## frecuentes, lo que puede generar pérdidas operativas estimadas en 1500 € al año.
+    
+    ## Proveedor A2 — Premium: cuota mensual 60€. Garantiza velocidad alta y conexión estable, sin 
+    ## pérdidas por interrupciones.
+    
+    ## Proveedor A3 — Intermedio: cuota mensual 40€. Cubre la mayoría de las necesidades, pero si 
+    ## hay interrupciones graves, la empresa puede tener pérdidas por 700 €.
+
+# La empresa considera dos estados posibles durante el próximo año:
+
+    ## E1(Interrupciones graves): hay fallos que provocan pérdidas económicas.
+    ## E2(Sin interrupciones graves): no hay pérdidas adicionales, solo se paga la cuota anual.
+
+# La empresa quiere evaluar el coste total del próximo año y tomar una decisión 
+# racional bajo incertidumbre. ¿Qué proveedor debería elegir?
+
