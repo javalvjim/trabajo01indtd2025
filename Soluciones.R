@@ -51,6 +51,9 @@ criterio.Laplace(tb01, favorable=TRUE)
 criterio.PuntoIdeal(tb01, favorable=TRUE)
 # De acuerdo con el criterio del Punto Ideal, la alternativa óptima es la d3.
 
+# En situación favorable (beneficios), y teniendo en cuanta todos los criterios,
+# la mejor alternativa es la d3.
+
 ## Apartado 2) Considerar situación desfavorable
 
 # Aplicamos el criterio de Wald:
@@ -85,6 +88,8 @@ criterio.Laplace(tb01, favorable=FALSE)
 criterio.PuntoIdeal(tb01, favorable=FALSE)
 # De acuerdo con el criterio del Punto Ideal, la alternativa óptima es la d5.
 
+# En situación desfavorable (costes), y teniendo en cuanta todos los criterios,
+# la mejor alternativa es la d5.
 
 
 #################################################################################
@@ -158,3 +163,7 @@ dibuja.criterio.Hurwicz_Intervalos(tb02, favorable=FALSE, mostrarGrafico=TRUE)
 # Si alfa pertenece al intervalo (0 , 0.657), la alternativa óptima es la d1.
 # Si alfa pertenece al intervalo (0.657 , 0.85), la alternativa óptima es la d5.
 # Si alfa pertenece al intervalo (0.85 , 1), la alternativa óptima es la d4.
+
+# Luego, teniendo en cuenta todos los criterios, la mejor alternativa es
+# "A2. Proveedor Premium". Por tanto, la empresa debe contratar el plan
+# de Internet con el Proveedor A2.
