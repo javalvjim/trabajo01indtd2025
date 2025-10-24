@@ -18,9 +18,11 @@ Los scripts R asociados son:
 
 - **Enunciados de los problemas**
     
-    + "Enunciados.R" 
+    + "Enunciados.R"
+    + Ampliación: "Enunciados.qmd"
 
 - **Soluciones de los problemas**
     
     + "Soluciones.R" 
+    + Ampliación: "Soluciones.qmd"
 
